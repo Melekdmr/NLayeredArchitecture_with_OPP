@@ -11,11 +11,15 @@ Logic Layer
 Presentation Layer
 ```
 
-```
+
 Layers:
+
 EntityLayer: Defines the entities (data models).
+
 Data Access Layer (DAL): Handles the database operations.
+
 Logic Layer: Contains business logic.
+
 Presentation Layer: Provides the user interface.
 
-```
+
