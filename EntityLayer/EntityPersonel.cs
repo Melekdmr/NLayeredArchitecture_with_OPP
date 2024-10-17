@@ -15,7 +15,7 @@ namespace EntityLayer
 		private string gorev;
 		private short maas;  //smallint short olarak tanımlanır.
 
-		public int Id { get => Id; set => Id = value; }  //get ile oku set ile değer ata
+		public int Id { get => id; set => id = value; }  //get ile oku set ile değer ata
 		public string Ad { get => ad; set => ad = value; }
 		public string Soyad { get => soyad; set => soyad = value; }
 		public string Sehir { get => sehir; set => sehir = value; }

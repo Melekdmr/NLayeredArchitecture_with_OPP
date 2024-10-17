@@ -10,9 +10,8 @@ namespace DataAccessLayer
 	{
 		//Bazı durumlarda yeni bir nesne türetmeden kullanmamız gereken komutlar vardır.
 		//Bu komutlar statik olarak karşımaıza çıkar.
-		public static SqlConnection bgl = new SqlConnection(@"Data 
-                                         Source=MELEKDMR\\SQLEXPRESS;Initial 
-                                         Catalog=DbPersonel;Integrated Security=True;");
+		public static SqlConnection bgl = new SqlConnection(@"Data Source=MELEKDMR\SQLEXPRESS;Initial Catalog=DbPersonel;Integrated Security=True");
+
 
 	}
 }
